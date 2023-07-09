@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(211, 130, 10);
+}
+body{
+  background-image: url("./1weather.jpg");
+      width: 100%;
+      background-repeat: no-repeat;
+      min-height: 130%;
+      max-height: 200%;
+      background-size: cover;
+      /* display: flex;
+      justify-content: center; */
+}
+#search{
+  /* color: black;
+  background-color: transparent;
+  text-align: center;
+  margin-left: 42rem;
+  padding: 8px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: large; */
+  margin-top: 30px;
+  margin-left: 38%;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 16px;
+  padding-left: 10px;
+  border-color: darkgray;
+  width: 20%;
+}
+#button{
+  /* font-weight: bold;
+  font-size: large;
+  color: gray;
+  background-color: transparent;
+  padding: 8px;
+  border-radius: 18px;
+  margin: 2px;
+  border-color: black; */
+  width: 5%;
+  padding:5px;
+  border-radius: 18px;
+  font-size: 18px;
+  border-color: transparent;
+  background-color: rgb(255, 102, 0);
+}
+#button:hover{
+  opacity: 0.6;
+}
+
+.left{
+  margin: 30px;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.date{
+  font-size: 15px;
+}
+p{
+  font-size: 12px;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+main{
+  display: flex;
+  /* justify-content: space-between; */
+}
+.temperature{
+  /* margin: 20px; */
+  /* margin-top: 120px; */
+  font-size: 5rem;
+}
+
+.temp{
+  margin: 20px;
+  margin-top: 120px;
+  font-size: 5rem;
+}
+.right{
+  position: absolute;
+right: 40px;
+top: 30%;
+  /* padding: 20px; */
+}
+.humidity{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.Air{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.Wind , .Pressure{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+label{
+  font-size: 20px;
+}
+.center{
+  display: flex;
+}
+.img{
+  /* margin-top:10px */
+  color: white;
+}
+#bottom{
+  font-size: 20px;
+  margin: 20px;
+}
+#feel{
+  font-size: 15px;
+  margin-top: 10px;
+}
+.logo-name{
+  font-size: 30px;
+  margin-top: 15px;
+}
+form input{
+  background-color: transparent;
+}
